@@ -1,0 +1,21 @@
+- Tablero 10x10
+- 19 piezas
+    - x4 L grande
+    - x4 L pequeña
+    - x1 Cubo grande
+    - x1 Cubo pequeño
+    - x1 Palo 1
+    - x2 Palo 2
+    - x2 Palo 3
+    - x2 Palo 4
+    - x2 Palo 5
+- Lógica pseudocódigo
+    - Siempre se generan 3 piezas aleatorias para coger
+        - Hasta que no se colaca la pieza seleccionada, no se genera una nueva
+    - Al completar una fila o una columna se elimina
+        - Si se completan ambas cosas a la vez o varias de cada, se elimina todo
+        al mismo tiempo
+    - Al colocar piezas o eliminar filas/columnas se obtienen puntos
+        - Los puntos son menos a más según la complejidad geométrica de la pieza
+        - Eliminar filas/columnas consigue el mayor valor de puntuación
+    - El juego termina cuando las piezas a colocar no encajan en el tablero
