@@ -1,7 +1,8 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#213034",
-        "titleBar.activeBackground": "#2E4349",
-        "titleBar.activeForeground": "#F9FAFB"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#213034",
+    "titleBar.activeBackground": "#2E4349",
+    "titleBar.activeForeground": "#F9FAFB"
+  },
+  "Lua.diagnostics.globals": ["love"]
 }
